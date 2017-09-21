@@ -1,0 +1,29 @@
+{
+  "manifest_version": 2,
+
+  "name": "Getting started example",
+  "description": "none",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon_128.png",
+    "default_popup": "popup.html"
+  },
+  "chrome_url_overrides" : {
+  "newtab": "testpage.html"
+  },
+  // "app": {
+  //   "background": {
+  //     "scripts": ["background.js"]
+  //   }
+  // },
+  "icons": {
+  "128": "icon_128.png"
+  },
+  "permissions": [
+    "activeTab",
+    "storage",
+    "alarms",
+    "https://ajax.googleapis.com/"
+  ]
+}
