@@ -1,6 +1,6 @@
 # AirnodeMonitor
 
-An air pollution monitor and visualizer using Airnode data and Google Map API
+An air pollution monitor and visualizer using Airnode data and Google Map API. To view, run flask and open template/testpage.html.
 
 # User Guide
 Welcome to Airnode Monitor, a multi-function visualization tool to give a visual representation of air pollution. It is designed both for scientists to analyze their data and further conduct their research and for citizens to have a clear visual comparison of the air pollution in major countries and major cities. 
